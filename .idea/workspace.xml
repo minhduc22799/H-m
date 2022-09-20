@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb932d9e-8996-4453-898c-809009ae92c8" name="Changes" comment="commit thu hanh tao va goi ham">
-      <change afterPath="$PROJECT_DIR$/ChuyenDoiNhietDo/index.html" afterDir="false" />
+    <list default="true" id="eb932d9e-8996-4453-898c-809009ae92c8" name="Changes" comment="commit chuyen doi nhiet do">
+      <change afterPath="$PROJECT_DIR$/TimGiaTriNhoNhat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663636543433</updated>
       <workItem from="1663636544862" duration="1762000" />
-      <workItem from="1663642135869" duration="229000" />
+      <workItem from="1663642135869" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="commit thu hanh tao va goi ham">
       <created>1663642166890</created>
@@ -59,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663642166890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit chuyen doi nhiet do">
+      <created>1663642419520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663642419520</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit thu hanh tao va goi ham" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit thu hanh tao va goi ham" />
+    <MESSAGE value="commit chuyen doi nhiet do" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit chuyen doi nhiet do" />
   </component>
 </project>
