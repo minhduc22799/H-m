@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Bai 1</h1>
+<p id="kQua"></p>
+
+
+<h1>Bai 2</h1>
+<p id="chuVi"></p>
+<p id="dienTich"></p>
+
+<h1>Bai 3</h1>
+<p id="giaThua"></p>
+
+
+<h1>Bai 4</h1>
+<p id="checkNumber"></p>
+
+<h1>Bai 5</h1>
+<p id="min"></p>
+
+<h1>Bai 6</h1>
+<p id="numberInt"></p>
+
+
+<h1>Bai 7</h1>
+<p id="swap"></p>
+
+<h1>Bai 8</h1>
+<p id="array"></p>
+
+<h1>Bai 9</h1>
+<p id="arrayCheck"></p>
+
+
+</body>
+
+
+<script>
+
+    // bai1
+    function bai1(number) {
+        let kQua = number * number
+        document.getElementById("kQua").innerHTML = kQua;
+        ;
+    }
+
+    let input = prompt("Bai 1: Nhap so")
+    bai1(input)
+
+
+    function bai2(r) {
+        let chuVi = 2 * Math.PI * r;
+        let dienTich = (chuVi * chuVi) / (4 * Math.PI);
+
+        document.getElementById("chuVi").innerHTML = chuVi;
+        document.getElementById("dienTich").innerHTML = dienTich;
+    }
+
+    let r = prompt("Bai 2: nhap ban kinh")
+    bai2(r);
+
+
+    function bai3(number) {
+        let giaThua = 1
+        for (let i = 1; i <= number; i++) {
+            giaThua = giaThua * i
+        }
+        return giaThua
+    }
+
+    let a = prompt("Bai 3: nhap so")
+    let result = bai3(a)
+    document.getElementById("giaThua").innerHTML = result;
+
+
+    function bai4(number) {
+        if (isNaN(number)) {
+            return false
+        } else {
+            return true
+        }
+    }
+
+    let number = prompt("Bai 4: nhap so can check")
+    let checkSo = bai4(number);
+    document.getElementById("checkNumber").innerHTML = checkSo;
+
+
+    function bai5(a, b, c) {
+        if (a < b && a < c) {
+            return a
+        } else if (b < c) {
+            return b
+        } else {
+            return c
+        }
+    }
+
+    let number1 = +prompt("nhap so 1")
+    let number2 = +prompt("nhap so 2")
+    let number3 = +prompt("nhap so 3")
+
+    let min = bai5(number1, number2, number3)
+    document.getElementById("min").innerHTML = min;
+
+
+    function bai6(number) {
+        if (number > 0 && number % 1 == 0) {
+            return true;
+        } else {
+            return false
+        }
+    }
+
+    let numberInt = prompt("nhap so can check");
+    let resultInt = bai6(numberInt);
+    document.getElementById("numberInt").innerHTML = resultInt;
+
+
+    function bai7(a, b) {
+        var c = a;
+        a = b;
+        b = c
+        return " a: " + a + " b: " + b;
+    }
+
+    let num1 = prompt("nhap a")
+    let num2 = prompt("nhap b")
+
+    let swap = bai7(num1, num2);
+    document.getElementById("swap").innerHTML = swap;
+
+
+    function bai8(arr) {
+        return arr.reverse()
+    }
+
+    let array0 = [1, 2, 3, 4, 5, 6, 4]
+    let arrayReverse = bai8(array0)
+    document.getElementById("array").innerHTML = arrayReverse
+
+
+    function bai9(arr, check) {
+        var count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === check) {
+                count++;
+            }
+        }
+        if (count >0) {
+            return count;
+        }else {
+            return -1;
+        }
+    }
+
+    let array1 = [1, 2, 'a', 'b', 'c', 'd', 'a', 'a']
+    let check1 = 'acx'
+    let checkArray = bai9(array1, check1);
+    document.getElementById("arrayCheck").innerHTML = checkArray
+
+</script>
+</html>

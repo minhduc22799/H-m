@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h1>Bài 2</h1>
+<input id="input" type="number" placeholder="nhap so" oninput="bai2(this.value)" onchange="bai2(this.value)">
+<p id="output2"></p>
+
+<script>
+
+    //bai 1
+    function alertMessage() {
+        alert("xin chao")
+    }
+
+    alertMessage()
+    //bai 2
+    function bai2(number) {
+        document.getElementById("output2").innerText = Number(number) + 1;
+
+    }
+
+    //bai 3
+    function bai3(number1, number2) {
+        if (number1 > number2) {
+            alert("số thứ nhất lớn hơn số thứ 2")
+        } else {
+            let sum = Number(number1) + Number(number2);
+            alert(sum);
+        }
+    }
+
+    bai3(2, 1);
+
+    //bai 4
+    function addNumbers() {
+        let firstNum = 4;
+        let secondNum = 8;
+        let result = firstNum + secondNum;
+        alert(result)
+        return result;
+    }
+
+    result = 0;
+    alert(result)
+    result = addNumbers();
+
+
+    //bai 5
+
+    let star1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"]
+    let star2 = ["Ursa Minor", "Taurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"]
+
+    function check_star(star) {
+        let index_star1 = 0;
+        let result = "";
+        for (let i = 0; i < star1.length; i++) {
+            if (star == star1[i]) {
+                index_star1 = i;
+                for(let j = 0; j < star2.length; j++) {
+                    if (index_star1 == j) {
+                        result = star2[j];
+                        return result;
+                    } else {
+                        result = "Không tìm thấy chòm sao"
+                        return result;
+                    }
+                }
+            } else {
+                result = "Không tìm thấy sao";
+                return result;
+            }
+        }
+
+    }
+    let star = prompt("Nhập vào ngôi sao: ")
+    document.write(check_star(star));
+
+</script>
+</body>
+
+</html>

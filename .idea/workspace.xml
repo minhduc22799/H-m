@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb932d9e-8996-4453-898c-809009ae92c8" name="Changes" comment="commit tim so nho nhat">
-      <change afterPath="$PROJECT_DIR$/SoNguyenTo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feetAndMeters/index.html" afterDir="false" />
+    <list default="true" id="eb932d9e-8996-4453-898c-809009ae92c8" name="Changes" comment="commit so nguyen to va chuyen doi feet meters">
+      <change afterPath="$PROJECT_DIR$/LuyenTap1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenTap2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaScript/Hàm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaScript/Hàm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +53,9 @@
       <updated>1663636543433</updated>
       <workItem from="1663636544862" duration="1762000" />
       <workItem from="1663642135869" duration="3537000" />
-      <workItem from="1663655944776" duration="1151000" />
+      <workItem from="1663655944776" duration="6231000" />
+      <workItem from="1663721361342" duration="4121000" />
+      <workItem from="1663742568337" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="commit thu hanh tao va goi ham">
       <created>1663642166890</created>
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663642894469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit so nguyen to va chuyen doi feet meters">
+      <created>1663657156685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663657156685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +106,7 @@
     <MESSAGE value="commit thu hanh tao va goi ham" />
     <MESSAGE value="commit chuyen doi nhiet do" />
     <MESSAGE value="commit tim so nho nhat" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit tim so nho nhat" />
+    <MESSAGE value="commit so nguyen to va chuyen doi feet meters" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit so nguyen to va chuyen doi feet meters" />
   </component>
 </project>
